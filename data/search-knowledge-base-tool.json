@@ -1,0 +1,21 @@
+{
+  "name": "search_knowledge_base",
+  "description": "Search the Globomantics knowledge base for help articles about a product.",
+  "strict": true,
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "query": {
+        "type": "string",
+        "description": "Keywords that describe the customer's problem."
+      },
+      "product": {
+        "type": "string",
+        "enum": ["EnterprisePro", "CustomerConnect", "SupportDesk"],
+        "description": "The product the question is about."
+      }
+    },
+    "required": ["query", "product"],
+    "additionalProperties": false
+  }
+}

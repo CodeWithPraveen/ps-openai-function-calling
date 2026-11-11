@@ -1,0 +1,38 @@
+[
+  {
+    "id": "KB-101",
+    "product": "EnterprisePro",
+    "title": "CSV export times out on large reports",
+    "content": "Exports with more than 10,000 rows can time out in the browser. Workaround: open Reports > Scheduled exports, schedule the export, and download the file from the email link. A permanent fix is tracked as issue 1 in the Globomantics issue tracker."
+  },
+  {
+    "id": "KB-102",
+    "product": "EnterprisePro",
+    "title": "Unlock an administrator account",
+    "content": "After five failed sign-ins, an administrator account locks for 30 minutes. Another administrator can unlock it right away under Admin > Users > Locked accounts."
+  },
+  {
+    "id": "KB-201",
+    "product": "CustomerConnect",
+    "title": "Set up email integration",
+    "content": "Open Settings > Integrations > Email, choose your email provider, and sign in with the mailbox you want to sync. The first sync starts within 15 minutes."
+  },
+  {
+    "id": "KB-202",
+    "product": "CustomerConnect",
+    "title": "Email sync stopped after a password change",
+    "content": "Email sync stops when the mailbox password changes. Fix: open Settings > Integrations > Email, click Reconnect, and sign in with the new password. Version 5.2.1 and later show a warning when this happens."
+  },
+  {
+    "id": "KB-301",
+    "product": "SupportDesk",
+    "title": "SLA report shows times in the wrong time zone",
+    "content": "The SLA report shows response times in UTC instead of the account time zone. Workaround: export the report and convert the times in a spreadsheet. This is tracked as issue 3 in the Globomantics issue tracker."
+  },
+  {
+    "id": "KB-302",
+    "product": "SupportDesk",
+    "title": "Customers do not receive ticket notification emails",
+    "content": "Check Admin > Notifications and confirm that the Ticket updates rule is turned on. Then ask the customer to add support@globomantics.com to their safe senders list."
+  }
+]
