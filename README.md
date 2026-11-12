@@ -29,11 +29,6 @@ On Windows, activate with `.venv\Scripts\activate`, and set variables with `set 
 
 The Issues tab of this repository holds three sample Globomantics bugs that the GitHub demos read. Globomantics is a fictional company.
 
-## Warnings
-
-- The MCP scripts send your `GITHUB_TOKEN` to OpenAI with each request, so that OpenAI can call GitHub's MCP server for you. Use a read-only token made for this course.
-- The Playground file search demo creates a vector store and an uploaded file in your OpenAI project. They stay until you delete them.
-
 ## Tear down
 
 - Delete the tickets the demos created: `rm -f data/tickets.json`
